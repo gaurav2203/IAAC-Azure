@@ -21,19 +21,19 @@ This project demonstrates how to use **Terraform** to deploy and manage Azure re
    git clone https://github.com/yourusername/terraform-azure-deployment.git
    ```
 2. Install all the dependencies. Here, I have provided the shell script to install terraform to the Linux VM.
-  ```bash
-  cd IAAC-Azure/
-  bash ./env/terraform.sh
-  ```
+   ```bash
+   cd IAAC-Azure/
+   bash ./env/terraform.sh
+   ```
 3. Initialize the terraform provider.
-  ```bash
-  cd tf/
-  terraform init
-  ```
+   ```bash
+   cd tf/
+   terraform init
+   ```
 This command will download all the necessary files that are required by the terraform to create the resources onto the Azure Portal.
 
 4. Create all the resources by using the terraform tool.
-  ```bash
-  terraform apply --auto-approve
-  ```
+   ```bash
+   terraform apply --auto-approve
+   ```
 
